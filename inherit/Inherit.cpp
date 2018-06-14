@@ -1,5 +1,7 @@
 using namespace std;
 
+#include <iostream>
+
 class Base {
 public:
     Base() {

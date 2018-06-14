@@ -2,6 +2,9 @@
 
 using namespace std;
 
+/**
+ * 人
+ */
 struct Person {
     string name;
     int age;
@@ -16,5 +19,4 @@ int main(int argc, char *argv[]) {
     p->englishScore = 1.2;
     p->historyScore = 4.4;
     printf("%.1lf %.1f %s %d", p->englishScore, p->historyScore, p->name.c_str(), p->age);
-    return 0;
 }

@@ -2,21 +2,36 @@ using namespace std;
 
 #include <iostream>
 
-class Base {
+/**
+ * 父类
+ */
+class Parent {
 public:
-    Base() {
+
+    /**
+     * 构造方法
+     */
+    Parent() {
         test();
     }
 
-public:
+    /**
+     * 抽象方法
+     */
     virtual void test() { printf("A\r\n"); };
+
 };
 
-class Sub : public Base {
-public:
-    Sub() {}
+/**
+ * 子类
+ */
+class Sub : public Parent {
 
 public:
+
+    /**
+     * 测试
+     */
     void test() {
         printf("B\r\n");
     }

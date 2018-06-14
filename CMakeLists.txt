@@ -9,3 +9,9 @@ add_executable(inherit
 
 add_executable(struct
         struct/TestStruct.cpp)
+
+add_executable(singlylinkedlist-frist
+        singlylinkedlist-frist/TestSinglyLinkedListFirst.cpp)
+
+add_executable(singlylinkedlist-last
+        singlylinkedlist-last/TestSinglyLinkedListLast.cpp)

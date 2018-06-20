@@ -18,3 +18,9 @@ add_executable(singlylinkedlist-last
 
 add_executable(arraysizeof
         arraysizeof/TestSizeOf1.cpp)
+
+add_executable(hk
+        hk/TestHK.cpp)
+
+add_executable(address
+        address/TestAddress.cpp)

@@ -15,3 +15,6 @@ add_executable(singlylinkedlist-frist
 
 add_executable(singlylinkedlist-last
         singlylinkedlist-last/TestSinglyLinkedListLast.cpp)
+
+add_executable(arraysizeof
+        arraysizeof/TestSizeOf1.cpp)
